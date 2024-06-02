@@ -20,7 +20,7 @@
   align-items: center;
   /* justify-content: space-around; */
   color: white;
-  height: 300px;
+  height: 100px;
 }
 
 .App-link {
@@ -47,7 +47,7 @@ body {
 
 .content {
   color: white;
-  padding: 20px;
+  padding: 180px;
 }
 .nav-bar {
   display: flex;

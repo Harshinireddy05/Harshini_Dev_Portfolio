@@ -18,7 +18,12 @@ function Skills() {
         { name: 'React', image: require("../Assets/react.png") },
       ],
     },
-    // ... other skill categories
+    {
+      title: 'Tools & Platforms',
+      skills: [
+        { name: 'Git', image: require("../Assets/git.png") },
+      ],
+    },
   ];
 
   return (

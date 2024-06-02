@@ -24,8 +24,10 @@ function App() {
         <Typing 
           text={[
             "a Developer",
-            "a Freelancer",
-            "a Tech Geek"
+            "a Tech Geek",
+            "an Innovator",
+            "a Programmer",
+            "an Engineer"
           ]}
           typingSpeed={100}
           deletingSpeed={50}
