@@ -1,15 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif; /* Set a default font family */
-    background-color: #f0f0f0; /* Light gray background color for the page (optional) */
+    font-family: sans-serif; 
+    background-color: #f0f0f0; 
   }
   
   .education {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+    grid-template-columns: 1fr 1fr; 
     padding: 320px;
-    grid-gap: 20px; /* Gap between education content and image */
+    grid-gap: 20px; 
   }
   
   .education h2 {
@@ -21,20 +21,19 @@ body {
   }
   
   .education-container {
-    grid-column: 1; /* Education content in the first column */
+    grid-column: 1; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible two-column layout for boxes */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     grid-gap: 50px;
     margin-left: 350px; 
   }
   
   .school-box,
   .college-box {
-    /* Consistent styling for boxes */
     padding: 5px;
     border: 5px solid #ddd;
     border-radius: 10px;
-    background-color: grey; /* Light background for boxes */
+    background-color: grey; 
     margin-bottom: 10px;
     width: 100%;
   }
@@ -47,14 +46,14 @@ body {
   .college-box p {
     font-size: 16px;
  }
-  /* Optional media query for smaller screens (adjust as needed) */
+
   @media (max-width: 768px) {
     .education {
-      grid-template-columns: 2fr; /* Stack elements on top of each other for smaller screens */
+      grid-template-columns: 2fr; 
     }
   
     .profile-image {
-      margin-top: 1rem; /* Add some space between text and image on small screens */
+      margin-top: 1rem; 
     }
   }
   

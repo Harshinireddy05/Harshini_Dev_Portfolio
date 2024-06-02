@@ -1,5 +1,5 @@
 import React from 'react';
-import './Education.css'; // Assuming the file is in the same directory
+import './Education.css';
 
 function Education() {
   return (

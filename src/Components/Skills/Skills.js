@@ -6,7 +6,7 @@ function Skills() {
     {
       title: 'Languages & Databases',
       skills: [
-        { name: 'Java', image: require("../Assets/java.png") }, // Assuming image paths are correct
+        { name: 'Java', image: require("../Assets/java.png") }, 
         { name: 'Python', image: require("../Assets/python.png") },
         { name: 'MySQL', image: require("../Assets/mysql.png") },
         { name: 'JS', image: require("../Assets/js.png") },

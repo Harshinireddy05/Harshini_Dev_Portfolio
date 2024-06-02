@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'; // Assuming the file is in the same directory
+import './Projects.css'; 
 
 function Projects() {
   const projects = [
@@ -39,10 +39,10 @@ function Projects() {
       <div className="projects-container">
         {projects.map((project) => (
           <div className="project-card" key={project.title}>
-            {project.imageUrl && ( // Check if imageUrl exists before rendering
+            {project.imageUrl && ( 
             <img
               src={project.imageUrl}
-              alt={project.title + ' Project Screenshot'} // Descriptive alt text
+              alt={project.title + ' Project Screenshot'}
               className="project-card-image"
             />
             )}

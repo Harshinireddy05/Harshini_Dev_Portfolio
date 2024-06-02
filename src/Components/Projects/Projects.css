@@ -1,13 +1,13 @@
    body {
-    background-color: black; /* Make the entire body black */
-    margin: 0; /* Remove default body margins */
-    padding: 0; /* Remove default body padding */
+    background-color: black; 
+    margin: 0; 
+    padding: 0;
   }
   
   .projects {
-    margin: 50px auto; /* Adjust margin for top and centering */
+    margin: 50px auto; 
     text-align: center;
-    max-width: 800px; /* Adjust max-width as needed */
+    max-width: 800px; 
   }
   
   .projects h2 {
@@ -17,17 +17,17 @@
   
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four columns, equal width */
-    gap: 30px; /* Adjust gap between cards as needed */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px; 
   }
   
   .project-card {
-    background-color: white; /* Set background color of cards to white */
+    background-color: white; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
-    color: #333; /* Adjust text color for cards if needed */
+    color: #333; 
   }
   
   .project-card:hover {
@@ -42,7 +42,7 @@
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: #333; /* Adjust text color for buttons if needed */
+    color: #333; 
     font-weight: bold;
     transition: color 0.2s ease-in-out;
   }
@@ -55,15 +55,13 @@
   .github-button:hover {
     color: #007bff;
   }
-  
-  /* FontAwesome Icon (you might need to include FontAwesome CSS) */
   .fab.fa-github {
     color: #4d4d4d;
   }
   .project-card-image {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-bottom: 10px; /* Optional margin below image */
-    border-radius: 5px; /* Optional rounded corners for image */
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
   }
   

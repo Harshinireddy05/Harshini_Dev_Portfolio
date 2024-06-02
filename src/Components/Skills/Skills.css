@@ -16,13 +16,13 @@
   .skills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Change justify-content to flex-start */
+    justify-content: flex-start; 
   }
   
   .skill {
-    display: inline-flex; /* Display skills inline */
+    display: inline-flex; 
     align-items: center;
-    margin-right: 10px; /* Adjust spacing between skills */
+    margin-right: 10px; 
   }
   
   .skill h3 {
@@ -36,15 +36,15 @@
   }
   
   .skill li {
-    margin-right: 10px; /* Adjust spacing between skill items */
+    margin-right: 10px; 
   }
   
   .skill-icon {
     width: 60px;
     height: 60px;
-    margin-right: 5px; /* Adjust spacing between image and skill name */
+    margin-right: 5px; 
   }
   
   .skill-name {
-    white-space: nowrap; /* Prevent skill names from wrapping */
+    white-space: nowrap; 
   }

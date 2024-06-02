@@ -10,7 +10,7 @@ function Typing({ text,typingSpeed=100,deleteSpeed=50,duration=1000}) {
     const [index, setIndex] = useState(0);
     useEffect(() => {
       const handleTyping = () => {
-          if (text && text.length > 0) { // Check if text is defined and has elements
+          if (text && text.length > 0) { 
             if (!isDeleting) {
               if (displayedText.length < text[index].length) {
                 setDisplayedText((prev) => prev + text[index].charAt(displayedText.length));
