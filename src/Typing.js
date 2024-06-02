@@ -44,14 +44,14 @@ function Typing({ text,typingSpeed=100,deleteSpeed=50,duration=1000}) {
             <span className="caret">|</span>
         </div>
         <div className="icon-container">
-          <a href="https://www.linkedin.com/in/your-linkedin-profile/">
-            <FontAwesomeIcon icon={faLinkedin} />
+          <a href="https://www.linkedin.com/in/harshini-reddy-nellore-4540ba285/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} color="white" style={{ fontSize: '40px' }}/>
           </a>
           <a href="https://github.com/your-github-username">
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} color="white" style={{ fontSize: '40px' }}/>
           </a>
           <a href="mailto:your-email@example.com">
-            <FontAwesomeIcon icon={faMailchimp} />
+            <FontAwesomeIcon icon={faMailchimp} color="white" style={{ fontSize: '40px' }}/>
           </a>
         </div>
       </div>
