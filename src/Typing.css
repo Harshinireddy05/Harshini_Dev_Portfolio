@@ -1,0 +1,45 @@
+.content {
+    background-color: #080808;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    min-height: 100vh;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding-top: 4rem;
+  }
+  
+  .typing-effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 4rem;
+  }
+  
+.centered-text {
+    position: absolute;
+    text-align: center;
+    margin-top: -300px;
+    font-size: 30px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between; /* Space icons evenly */
+  margin-top: 40px; /* Adjust margin as needed */
+}
+
+.icon-container a {
+  margin: 0 10px; /* Add space between icons and links */
+}
+
+.icon {
+  width: 500px;
+  height: 500px; 
+  border-radius: 50%;
+  background-color: white;
+  display: flex; /* Center icon content */
+  align-items: center;
+  justify-content: center;
+}
+
