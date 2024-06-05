@@ -15,7 +15,7 @@ function NavBar(){
                 <li className='nav-item'><Link to='/skills'>Skills</Link></li>
                 <li className='nav-item'><Link to='/education'>Education</Link></li>
                 <li className='nav-item'><Link to='/projects'>Projects</Link></li>
-                <li className='nav-item'><a href="https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view" target='_blank'>Resume</a></li>
+                <li className='nav-item'><a href="https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view" target='_blank' rel="noreferrer">Resume</a></li>
             </ul>
         </nav>
     );

@@ -12,7 +12,7 @@ function About() {
       </p>
       {/* Add more sections for hobbies, goals, etc. if needed */}
       <div className="about-image">
-        <img src = {profileImage} alt="Your Profile Picture" />
+        <img src = {profileImage} alt="Your Profile" />
       </div>
     </section>
   );
