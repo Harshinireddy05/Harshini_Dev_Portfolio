@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     font-family: sans-serif; 
@@ -6,7 +6,6 @@ body {
   }
   
   .education {
-    display: grid;
     grid-template-columns: 1fr 1fr; 
     padding: 320px;
     grid-gap: 20px; 
@@ -54,6 +53,60 @@ body {
   
     .profile-image {
       margin-top: 1rem; 
+    }
+  } */
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+  }
+  
+  .education h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .school-box,
+  .college-box {
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    background-color: grey;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .school-box h3,
+  .college-box h3 {
+    font-size: 20px;
+  }
+  
+  .school-box p,
+  .college-box p {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .education {
+      padding: 50px 10px;
     }
   }
   

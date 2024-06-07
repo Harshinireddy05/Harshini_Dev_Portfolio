@@ -47,7 +47,7 @@ function Typing({ text,typingSpeed=100,deleteSpeed=50,duration=1000}) {
           <a href="https://www.linkedin.com/in/harshini-reddy-nellore-4540ba285/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} color="white" style={{ fontSize: '40px' }}/>
           </a>
-          <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Harshinireddy05" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} color="white" style={{ fontSize: '40px' }}/>
           </a>
           <a href="mailto:your-email@example.com">
