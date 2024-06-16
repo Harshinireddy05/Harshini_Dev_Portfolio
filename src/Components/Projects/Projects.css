@@ -18,16 +18,17 @@
   .projects-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 30px; 
+    gap: 15px; 
   }
   
   .project-card {
     background-color: white; 
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
     color: #333; 
+    max-width: 100%;
   }
   
   .project-card:hover {
@@ -58,10 +59,12 @@
   .fab.fa-github {
     color: #4d4d4d;
   }
+
   .project-card-image {
-    width: 100px; 
-    height: 100px;
+    width: 100%;
+    height: auto;
     margin-bottom: 10px; 
     border-radius: 5px; 
   }
+  
   
